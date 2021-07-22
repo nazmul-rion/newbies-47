@@ -32,3 +32,9 @@
 .card:hover .fa-heart{
     opacity: 1;
 }
+.muted-clr{
+    color: 	#777;
+}
+footer a:hover{
+     color: red;
+}
