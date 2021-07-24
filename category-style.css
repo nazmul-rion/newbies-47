@@ -79,7 +79,10 @@ a {
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
-.shop-cat-left-sidebar-area .widgets_inner ul li:hover {
+.shop-cat-left-sidebar-area .widgets_inner ul li:hover a{
+    color: #ff3368;
+}
+.shop-cat-left-sidebar-area .widgets_inner ul li:hover{
     color: #ff3368;
 }
 .left_widgets:last-child {
@@ -134,8 +137,11 @@ a:hover {
 /*---------------------------
  single product menu area
  -------------------------- */
+ .shop-catg-sec-product-top-bar {
+    clear: both;
+    padding: 10px 0;
+}
 .single-product-menu p {
-    color: #020202;
     font-weight: 500;
 }
 .single-product-menu p span {
@@ -153,4 +159,45 @@ option {
     white-space: nowrap;
     min-height: 1.2em;
     padding: 0px 2px 1px;
+}
+.shop-catg-sec-product-top-bar .single-product-menu .nice-select {
+    height: 0;
+    border: 0px;
+    line-height: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.shop-catg-sec-product-top-bar .single-product-menu  .input-group {
+    width: 150px;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+.shop-catg-sec-product-top-bar .single-product-menu .input-group .form-control {
+    border: 0px solid transparent;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.shop-catg-sec-product-top-bar .single-product-menu .input-group .form-control {
+    border: 0px solid transparent;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.shop-catg-sec-product-top-bar .single-product-menu .input-group .input-group-text {
+    background-color: transparent;
+    border: 0px solid transparent;
+    border-bottom: 1px solid #ddd;
+}
+.ser{
+    padding: 0.7rem .75rem;
 }
