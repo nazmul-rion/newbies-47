@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.single-comment h5, p{
+margin: 0;
+}
+.bg-com{
+    background-color: #ecfdff;
+}
+
+.dropdown-menu{
+     display: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+ .card:hover{
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} 
+.cart{
+    opacity: 0;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+}
+.card:hover .cart{
+    opacity: 1;
+}
+.heart{
+    opacity: 0;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+}
+.card:hover .fa-heart{
+    opacity: 1;
+}
+.muted-clr{
+    color: 	#777;
+}
+footer a:hover{
+     color: red;
+}

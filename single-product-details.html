@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/single-product-details.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="bg-com">
+        <div class="container">
+            <!-- navigaition section -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0 fw-bold">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Shop
+                                </a>
+                                <ul class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Shop Category</a></li>
+                                    <li><a class="dropdown-item" href="#">Product Detail</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Log in</a></li>
+                                    <li><a class="dropdown-item" href="#">Tracking</a></li>
+                                    <li><a class="dropdown-item" href="#">Product Checkout</a></li>
+                                    <li><a class="dropdown-item" href="#">Shopping Cart</a></li>
+                                    <li><a class="dropdown-item" href="#">Confirmation</a></li>
+
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog Single</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <div class="d-flex align-items-center">
+                <div class="w-50 text-center">
+                    <h1 class="fw-bold">Single Product</h1>
+                    <p>single-product-details</p>
+                </div>
+                <div class="w-50 text-center">
+                    <img class="img-fluid p-5" src="images/feature/feature_1.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-8  p-3">
+                    <picture class=" d-flex justify-content-between ">
+                        <img src="images/product/single-product/product_1.png" class="img-fluid p-3" alt="">
+                        <div class="thumbnail d-flex flex-column justify-content-between">
+                            <img width="100px" src="images/product/single-product/product_1.png"
+                                class="img-thumbnail border-2 rounded" alt="..." id="thumbnail1">
+                            <img width="100px" src="images/product/single-product/product_1.png"
+                                class="img-thumbnail border-2 rounded" alt="..." id="thumbnail2">
+                            <img width="100px" src="images/product/single-product/product_1.png"
+                                class="img-thumbnail border-2 rounded " id="thumbnail3" alt="...">
+                        </div>
+                    </picture>
+                </div>
+
+                <div class="col-4   d-flex flex-column justify-content-end">
+                    <div class="title">
+                        <h3>Faded SkyBlu Denim Jeans</h3>
+                    </div>
+                    <div class="price">
+                        <h3 class=" text-danger fw-bold">$149.99</h3>
+                    </div>
+                    <div class="category d-flex  align-items-center">
+                        <h3>Category: </h3><a class="text-decoration-none fs-5 ms-2 text-warning" href="#">
+                            Household</a>
+                    </div>
+                    <div class="availibility d-flex align-items-center">
+                        <h3>Availibility: </h3>
+                        <h5 class="fs-5 ms-2">In Stock</h5>
+                    </div>
+                    <hr>
+                    <p class="productsummary">First replenish living. Creepeth image image. Creeping can't, won't
+                        called. Two fruitful let days signs sea together all land fly subdue</p>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <div class="number">
+                            <span class="minus"><i class="fas fa-minus-square"></i></span>
+                            <input class=" border border-danger rounded-pill p-2" type="number" min="0" max="20"
+                                value="1">
+                            <span class="plus"><i class="fas fa-plus-square"></i></span>
+                        </div>
+
+                        <div>
+                            <button type="button" class="rounded-pill btn btn-info">Add To Cart</button>
+                        </div>
+                        <div class="favourite">
+                            <i class="far fa-heart border border-danger  rounded-circle p-2"></i>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <!-- Description Specification Comment and Reviews part -->
+
+        <div class="container d-flex ">
+            <div class="row my-5">
+                <div class="col-6 d-flex">
+                    <div class="description p-2">
+                        <button type="button" class="rounded-pill btn btn-warning"
+                            onclick="changedisplay('description')">Description</button>
+                    </div>
+                    <div class=" spec p-2">
+                        <button type="button" class="rounded-pill btn btn-warning"
+                            onclick="changedisplay('specification')">Specification</button>
+                    </div>
+                    <div class=" comment p-2">
+                        <button type="button" class="rounded-pill btn btn-warning"
+                            onclick="changedisplay('comment')">Comment</button>
+                    </div>
+                    <div class="review p-2">
+                        <button type="button" class="rounded-pill btn btn-warning"
+                            onclick="changedisplay('review')">Reviews</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Description -->
+        <div class="container details-section" id="description">
+            <p>
+                Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of all
+                shapes and sizes enjoying themselves .Born between the two world wars, Beryl Cook eventually left
+                Kendrick School in Reading at the age of 15, where she went to secretarial school and then into an
+                insurance office. After moving to London and then Hampton, she eventually married her next door
+                neighbour from Reading, John Cook. He was an officer in the Merchant Navy and after he left the sea in
+                1956, they bought a pub for a year before John took a job in Southern Rhodesia with a motor company.
+                Beryl bought their young son a box of watercolours, and when showing him how to use it, she decided that
+                she herself quite enjoyed painting. John subsequently bought her a child’s painting set for her birthday
+                and it was with this that she produced her first significant work, a half-length portrait of a
+                dark-skinned lady with a vacant expression and large drooping breasts. It was aptly named ‘Hangover’ by
+                Beryl’s husband and
+
+                It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we are
+                seeing more and more recipe books and Internet websites that are dedicated to the act of cooking for
+                one. Divorce and the death of spouses or grown children leaving for college are all reasons that someone
+                accustomed to cooking for more than one would suddenly need to learn how to adjust all the cooking
+                practices utilized before into a streamlined plan of cooking that is more efficient for one person
+                creating less
+            </p>
+        </div>
+
+        <!-- Specification -->
+        <div class=" container details-section" id="specification" style="display: none;">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td>Width</td>
+                        <td>128mm</td>
+                    </tr>
+                    <tr>
+                        <td>Height</td>
+                        <td>508mm</td>
+                    </tr>
+                    <tr>
+                        <td>Depth</td>
+                        <td>85mm</td>
+                    </tr>
+                    <tr>
+                        <td>Width</td>
+                        <td>52gm</td>
+                    </tr>
+                    <tr>
+                        <td>Quality checking</td>
+                        <td>yes</td>
+                    </tr>
+                    <tr>
+                        <td>Freshness Duration</td>
+                        <td>03days</td>
+                    </tr>
+                    <tr>
+                        <td>When packeting</td>
+                        <td>Without touch of hand</td>
+                    </tr>
+                    <tr>
+                        <td>Each Box contains</td>
+                        <td>60pcs</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Comments -->
+        <div class="container details-section" id="comment" style="display: none;">
+            <div class="row">
+                <div class="col-6">
+                    <div class="single-comment mb-5">
+                        <div class="user d-flex justify-content-between">
+                            <div class="d-flex">
+                                <div class="user-photo">
+                                    <img class="me-3" src="images/comment/comment_1.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <h5>Blake Ruiz</h5>
+                                        <p>12th Feb, 2017 at 05:56 pm</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="rounded-pill btn btn-success">Reply</button>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquam vitae delectus,
+                                atque quis voluptatum magni sint dolorum error laborum, consectetur deserunt nihil quo
+                                eveniet, tempore officiis aperiam possimus dignissimos.</p>
+                        </div>
+                    </div>
+                    <div class="single-comment mb-5">
+                        <div class="user d-flex justify-content-between">
+                            <div class="d-flex ">
+                                <div class="user-photo">
+                                    <img class="me-3" src="images/comment/comment_2.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <h5>Blake Ruiz</h5>
+                                        <p>12th Feb, 2017 at 05:56 pm</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="rounded-pill btn btn-success">Reply</button>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquam vitae delectus,
+                                atque quis voluptatum magni sint dolorum error laborum, consectetur deserunt nihil quo
+                                eveniet, tempore officiis aperiam possimus dignissimos.</p>
+                        </div>
+                    </div>
+                    <div class="single-comment mb-5">
+                        <div class="user d-flex justify-content-between">
+                            <div class="d-flex">
+                                <div class="user-photo">
+                                    <img class="me-3" src="images/comment/comment_3.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <h5>Blake Ruiz</h5>
+                                        <p>12th Feb, 2017 at 05:56 pm</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="rounded-pill btn btn-success">Reply</button>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquam vitae delectus,
+                                atque quis voluptatum magni sint dolorum error laborum, consectetur deserunt nihil quo
+                                eveniet, tempore officiis aperiam possimus dignissimos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <h3 class="fw-bold">Post a comment</h3>
+                    <input type="text" class="form-control my-3 p-2" placeholder="Your Full Name">
+                    <input type="text" class="form-control my-3 p-2" placeholder="Email Address">
+                    <input type="text" class="form-control my-3 p-2" placeholder="Phone Number">
+                    <textarea type="text" class="form-control my-3 p-2" placeholder="Message"></textarea>
+                    <button class="rounded-pill btn btn-success float-end my-3 p-2">Submit Now</button>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- Reviews -->
+        <div class="container details-section" id="review" style="display: none;">
+            <div class="row">
+                <div class="col-6">
+
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="w-50 border border-info bg-info p-3 mx-2 text-center">
+                            <h2>Overall</h2>
+                            <h1 class="fw-bold">3.6</h1>
+                            <p>(03 Reviews)</p>
+                        </div>
+                        <div class="w-50 m-2 text-center">
+                            <h5 class="fw-bold">Based on 3 Reviews</h5>
+                            <p>5 Star <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+                                    class="fas fa-star text-warning"></i> 01
+                            </p>
+                            <p>4 Star <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+                                    class="far fa-star"></i> 00
+                            </p>
+                            <p>3 Star <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i> <i class="far fa-star"></i> <i
+                                    class="far fa-star"></i> 02
+                            </p>
+                            <p>2 Star <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                                <i class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> 00
+                            </p>
+                            <p>1 Star <i class="fas fa-star text-warning"></i> <i class="far fa-star"></i> <i
+                                    class="far fa-star"></i> <i class="far fa-star"></i> <i class="far fa-star"></i> 00
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="single-comment mb-5">
+                        <div class="user d-flex justify-content-between">
+                            <div class="d-flex">
+                                <div class="user-photo">
+                                    <img class="me-3" src="images/comment/comment_1.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <h5>Blake Ruiz</h5>
+                                        <p><i class="fas fa-star text-warning"></i><i
+                                                class="fas fa-star text-warning"></i><i
+                                                class="fas fa-star text-warning"></i><i class="far fa-star"></i><i
+                                                class="far fa-star"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquam vitae delectus,
+                                atque quis voluptatum magni sint dolorum error laborum, consectetur deserunt nihil quo
+                                eveniet, tempore officiis aperiam possimus dignissimos.</p>
+                        </div>
+                    </div>
+                    <div class="single-comment mb-5">
+                        <div class="user d-flex justify-content-between">
+                            <div class="d-flex ">
+                                <div class="user-photo">
+                                    <img class="me-3" src="images/comment/comment_2.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <h5>Blake Ruiz</h5>
+                                        <p><i class="fas fa-star text-warning"></i><i
+                                                class="fas fa-star text-warning"></i><i
+                                                class="fas fa-star text-warning"></i><i class="far fa-star"></i><i
+                                                class="far fa-star"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquam vitae delectus,
+                                atque quis voluptatum magni sint dolorum error laborum, consectetur deserunt nihil quo
+                                eveniet, tempore officiis aperiam possimus dignissimos.</p>
+                        </div>
+                    </div>
+                    <div class="single-comment mb-5">
+                        <div class="user d-flex justify-content-between">
+                            <div class="d-flex">
+                                <div class="user-photo">
+                                    <img class="me-3" src="images/comment/comment_3.png" alt="">
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div>
+                                        <h5>Blake Ruiz</h5>
+                                        <p><i class="fas fa-star text-warning"></i><i
+                                                class="fas fa-star text-warning"></i><i
+                                                class="fas fa-star text-warning"></i><i
+                                                class="fas fa-star text-warning"></i><i
+                                                class="fas fa-star text-warning"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquam vitae delectus,
+                                atque quis voluptatum magni sint dolorum error laborum, consectetur deserunt nihil quo
+                                eveniet, tempore officiis aperiam possimus dignissimos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <h3 class="fw-bold">Add a Review</h3>
+                    <p> Your Rating: <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i>
+                        <i class="fas fa-star text-warning"></i> <i class="fas fa-star text-warning"></i> <i
+                            class="fas fa-star text-warning"></i> Outstanding
+                    </p>
+                    <input type="text" class="form-control my-3 p-2" placeholder="Your Full Name">
+                    <input type="text" class="form-control my-3 p-2" placeholder="Email Address">
+                    <input type="text" class="form-control my-3 p-2" placeholder="Phone Number">
+                    <textarea type="text" class="form-control my-3 p-2" placeholder="Review"></textarea>
+                    <button class="rounded-pill btn btn-success float-end my-3 p-2">Submit Now</button>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="container my-5">
+        <div class="row">
+            <div class="col-lg-2">
+                <p style="font-size: 1.5em;" class="mb-3 ">Top Products</p>
+                <div>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Manages Website</a>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Manages Reputation</a>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Power Tools</a>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Marketing Service</a>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <p style="font-size: 1.5em;" class="mb-3 ">Quick Links</p>
+                <div>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Jobs</a>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Brand Assets</a>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Investor Relations</a>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Terms of Service</a>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <p style="font-size: 1.5em;" class="mb-3 ">Features</p>
+                <div>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Jobs</a>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Brand Assets</a>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Investor Relations</a>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Terms of Service</a>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <p style="font-size: 1.5em;" class="mb-3 ">Resources</p>
+                <div>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Guides</a>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Research</a>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Experts</a>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Agencies</a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <p style="font-size: 1.5em;" class="mb-3 ">Newsletter</p>
+                <div>
+                    <a class="text-decoration-none muted-clr d-block" href="#">Heaven fruitful doesn't over lesser in
+                        days.
+                        <br> Appear creeping</a>
+                    <input type="email" class="form-control w-50 d-inline my-3" id="exampleFormControlInput2"
+                        placeholder="Email Address">
+                    <div class="btn btn-warning d-inline">SUBSCRIBE</div>
+
+                </div>
+            </div>
+        </div>
+
+        <p class="my-5 muted-clr text-center">Copyright ©2021 All rights reserved | This template is made with <i
+                class="far fa-heart"></i> by <span class="text-danger">NEWBIES-47</span> </p>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f9b518235a.js" crossorigin="anonymous"></script>
+    <!-- User Defined  -->
+    <script>
+        function changedisplay(name) {
+
+            var x = document.getElementsByClassName('details-section');
+            for (let i = 0; i < x.length; i++) {
+                x[i].style.display = 'none';
+            }
+            document.getElementById(name).style.display = 'block';
+        }
+    </script>
+</body>
+
+</html>
