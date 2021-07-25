@@ -1,0 +1,67 @@
+small a {
+    text-decoration: none;
+    color: gray;
+}
+
+small a:hover {
+    color: #ff3368;
+}
+.btn_1 {
+    margin-top: 0;
+    padding: 15px 24px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #edeff2;
+    background-color: #ff3368;
+}
+.catagory {
+    text-decoration: none;
+    color: black;
+
+}
+
+.catagory:hover {
+    color: #ff3368;
+}
+.recen_post {
+    text-decoration: none;
+    color: black;
+
+}
+
+.recen_post:hover {
+    color: #ff3368;
+}
+.item-time-date {
+    position: relative;
+
+}
+
+.time-date {
+    position: absolute;
+    bottom: -15px;
+    left: 30px;
+    background-color: #ff3368;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+
+.time-date {
+    text-decoration: none;
+    color: #edeff2;
+}
+
+.time-date:hover {
+    color: #edeff2;
+
+}
+
+.blog-heading {
+    text-decoration: none;
+    color: black;
+
+}
+
+.blog-heading:hover {
+    color: #ff3368;
+}

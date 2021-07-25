@@ -1,59 +1,57 @@
-small a
-{
+small a {
     text-decoration: none;
     color: gray;
 }
-small a:hover
-{
+
+small a:hover {
     color: #ff3368;
 }
-span
-{
+
+span {
     color: gray;
 }
-.next a
-{
-    text-decoration: none;
-    color: black;
-}
-.front
-{
-    color: gray;
-}
-.front:hover
-{
-    color: gray;
-}
-.next a:hover
-{
-    color: #ff3368;
-}
-.author
-{
+
+.next a {
     text-decoration: none;
     color: black;
 }
-.author:hover
-{
+
+.front {
+    color: gray;
+}
+
+.front:hover {
+    color: gray;
+}
+
+.next a:hover {
     color: #ff3368;
 }
-.comment
-{
+
+.author {
+    text-decoration: none;
+    color: black;
+}
+
+.author:hover {
+    color: #ff3368;
+}
+
+.comment {
     text-decoration: none;
     color: #666;
 }
-.comment:hover
-{
+
+.comment:hover {
     color: #666;
 
 }
-.btn-color
-{
+
+.btn-color {
     background-color: #ff3368;
 }
 
-.btn_1
-{
+.btn_1 {
     margin-top: 0;
     padding: 15px 24px;
     font-size: 15px;
@@ -61,23 +59,23 @@ span
     border: 1px solid #edeff2;
     background-color: #ff3368;
 }
-.catagory 
-{
+
+.catagory {
     text-decoration: none;
     color: black;
 
 }
-.catagory:hover
-{
+
+.catagory:hover {
     color: #ff3368;
 }
-.recen_post
-{
+
+.recen_post {
     text-decoration: none;
     color: black;
 
 }
-.recen_post:hover
-{
+
+.recen_post:hover {
     color: #ff3368;
 }
