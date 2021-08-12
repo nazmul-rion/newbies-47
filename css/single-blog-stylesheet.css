@@ -1,0 +1,81 @@
+small a {
+    text-decoration: none;
+    color: gray;
+}
+
+small a:hover {
+    color: #ff3368;
+}
+
+span {
+    color: gray;
+}
+
+.next a {
+    text-decoration: none;
+    color: black;
+}
+
+.front {
+    color: gray;
+}
+
+.front:hover {
+    color: gray;
+}
+
+.next a:hover {
+    color: #ff3368;
+}
+
+.author {
+    text-decoration: none;
+    color: black;
+}
+
+.author:hover {
+    color: #ff3368;
+}
+
+.comment {
+    text-decoration: none;
+    color: #666;
+}
+
+.comment:hover {
+    color: #666;
+
+}
+
+.btn-color {
+    background-color: #ff3368;
+}
+
+.btn_1 {
+    margin-top: 0;
+    padding: 15px 24px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #edeff2;
+    background-color: #ff3368;
+}
+
+.catagory {
+    text-decoration: none;
+    color: black;
+
+}
+
+.catagory:hover {
+    color: #ff3368;
+}
+
+.recen_post {
+    text-decoration: none;
+    color: black;
+
+}
+
+.recen_post:hover {
+    color: #ff3368;
+}
